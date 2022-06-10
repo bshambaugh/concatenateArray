@@ -1,5 +1,12 @@
 #include "concatenateArray.h"
 
+void voidUint8Array(int len, uint8_t a[]) {
+   int i;
+   for(i=0; i < len; i++) {
+      a[i] = '\0';
+   }
+}
+
 void voidArray(int len, char a[]) {
    int i;
    for(i=0; i < len; i++) {
